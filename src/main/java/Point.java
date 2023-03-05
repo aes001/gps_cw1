@@ -11,7 +11,7 @@ import static java.lang.Math.toRadians;
 /**
  * Represents a point in space and time, recorded by a GPS sensor.
  *
- * @author Nick Efford & YOUR NAME
+ * @author Nick Efford & Andreas Sunardi
  */
 public class Point {
   // Constants useful for bounds checking, etc
@@ -22,17 +22,40 @@ public class Point {
   private static final double MAX_LATITUDE = 90.0;
   private static final double MEAN_EARTH_RADIUS = 6.371009e+6;
 
+  ZonedDateTime time;
+  double latitude;
+  double longitude;
+  double elevation;
+
   // TODO: Create a stub for the constructor
+  Point(ZonedDateTime time, double lat, double lon, double elev) {
+  
+  }
 
   // TODO: Create a stub for getTime()
+  double getTime() {
+    return 0;
+  }
 
   // TODO: Create a stub for getLatitude()
+  double getLatitude() {
+    return 0;
+  }
 
   // TODO: Create a stub for getLongitude()
+  double getLongitude() {
+    return 0;
+  }
 
   // TODO: Create a stub for getElevation()
+  double getElevation() {
+    return 0;
+  }
 
   // TODO: Create a stub for toString()
+  public String toString() {
+    return null;
+  }
 
   // IMPORTANT: Do not alter anything beneath this comment!
 

@@ -5,7 +5,7 @@ plugins {
   id 'checkstyle'
   id 'application'
   // Uncomment line below if using JavaFX for Advanced solution
-  //id 'org.openjfx.javafxplugin' version '0.0.13'
+  // id 'org.openjfx.javafxplugin' version '0.0.13'
   id 'idea'
 }
 
@@ -27,10 +27,10 @@ dependencies {
 
 // Uncomment section below if using JavaFX for Advanced solution
 
-//javafx {
-//  version = '17'  // change version as appropriate
-//  modules = [ 'javafx.controls' ]
-//}
+// javafx {
+//   version = '17'  // change version as appropriate
+//   modules = [ 'javafx.controls' ]
+// }
 
 // Unit testing
 
